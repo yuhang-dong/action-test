@@ -11,6 +11,7 @@ on:
         - warning
         - debug 
       print_tags:
+        if: ${{ false }}
         description: 'True to print to STDOUT'
         required: true 
         type: boolean 
